@@ -26,7 +26,7 @@ st.image(image_heart, width=100)
 
 # Sidebar for navigation
 app_mode = st.sidebar.selectbox('Select page',['Introduction','Visualization','Prediction','Deployment'])
-
+app_mode = st.sidebar.selectbox('Select page', ['Logistic Regression, 'Decision Tree'])
 if app_mode == 'Introduction':
   # Introduction page allowing user to view dataset rows
   num = st.number_input('No of Rows',5,10)
