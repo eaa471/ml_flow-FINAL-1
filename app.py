@@ -31,6 +31,7 @@ st.image(gif_path, caption= "Eat your veggies!", width=width)
 
 # Sidebar for navigation
 app_mode = st.sidebar.selectbox('Select page',['Introduction','Visualization','Prediction','Deployment'])
+app_mode = st.sidebar.selectbox('Select page', ['Logistic Regression','Decision Tree'])
 
 if app_mode == 'Introduction':
   # Introduction page allowing user to view dataset rows
