@@ -11,6 +11,8 @@ from sklearn.model_selection import train_test_split
 from sklearn import metrics
 from sklearn.metrics import r2_score
 from sklearn import metrics as mt
+from sklearn import DecisionTreeClassifier 
+from sklearn.metrics import accuracy_score 
 import subprocess
 import pickle
 
